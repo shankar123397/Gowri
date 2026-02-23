@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>About Page</title>
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body{
+      background:white;
+      color:white;
+    }
+
+    nav{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      padding:20px 60px;
+    }
+
+    nav ul{
+      list-style:none;
+      display:flex;
+      gap:30px;
+    }
+
+    nav ul li{
+      color:#ccc;
+      cursor:pointer;
+    }
+
+    .contact-btn{
+      background:#1dd3b0;
+      color:white;
+      padding:10px 20px;
+      border:none;
+      border-radius:4px;
+      font-weight:bold;
+      cursor:pointer;
+    }
+
+    .hero{
+      display:flex;
+      align-items:left;
+      justify-content:space-between;
+      padding:50px 80px;
+    }
+
+    .hero img{
+      width:350px;
+      border-radius:10px;
+    }
+
+    .hero-text{
+      max-width:500px;
+    }
+
+    .hero-text h4{
+      color:#1dd3b0;
+      letter-spacing:2px;
+    }
+
+    .hero-text h1{
+      font-size:50px;
+      margin:10px 0;
+    }
+
+    .hero-text span{
+      color:#1dd3b0;
+    }
+
+    .hero-text p{
+      color:#aaa;
+      line-height:1.6;
+      margin-top:15px;
+    }
+
+    .btn{
+      margin-top:25px;
+      padding:12px 25px;
+      border:2px solid #1dd3b0;
+      background:transparent;
+      color:#1dd3b0;
+      font-weight:bold;
+      cursor:pointer;
+    }
+  </style>
+</head>
+
+<body>
+
+<nav>
+  <div style="font-size:22px;">👤</div>
+
+  <ul>
+    <li><a href="Home.html">Home </a></li>
+    <li><a href="About.html">About</a></li>
+    <li><a href="SERVICE.html">SERVICE</a></li>
+    <li><a href="BLOG.html">BLOG</a></li>
+    <li><a href="MORE.html">>MORE</a></li>
+  </ul>
+
+  <button class="contact-btn">CONTACT</button>
+</nav>
+
+<section class="hero">
+  <img src="image1.jpeg">
+
+  <div class="hero-text">
+    <h2>CODEWITHRANDOM</h2>
+    <h1>I'm a Web <span>Developer</span></h1>
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Doloremque illum nam nobis minima laudantium fugit sequi nostrum
+      quod impedit, beatae necessitatibus praesentium optio labore nemo!
+    </p>
+
+    <button class="btn">DOWNLOAD CV</button>
+  </div>
+</section>
+
+</body>
+</html>
